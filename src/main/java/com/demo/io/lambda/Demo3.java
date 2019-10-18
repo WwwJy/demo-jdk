@@ -4,11 +4,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by w景洋
- * on 2019/10/17
- */
 public class Demo3 {
+    /**
+     * 简单介绍 stream 和 lambda表达式结合
+     * @param args
+     */
     public static void main(String[] args) {
         // 要求： 把list中的字符串变成大写，并打印出来
         List<String> list = Arrays.asList("hello","world","hello world");

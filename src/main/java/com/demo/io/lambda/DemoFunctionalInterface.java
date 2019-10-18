@@ -1,9 +1,5 @@
 package com.demo.io.lambda;
 
-/**
- * Created by w景洋
- * on 2019/10/17
- */
 @FunctionalInterface
 interface TestInterface {
 
@@ -18,6 +14,9 @@ interface TestInterface {
     String toString();
 }
 
+/**
+ * 简单介绍@FunctionalInterface的使用
+ */
 public class DemoFunctionalInterface{
 
     public void myTest(TestInterface testInterface){

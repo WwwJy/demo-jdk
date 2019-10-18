@@ -3,11 +3,11 @@ package com.demo.io.lambda;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by w景洋
- * on 2019/10/17
- */
 public class Demo2 {
+    /**
+     * lambda的函数结构简单介绍
+     * @param args
+     */
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4);
 

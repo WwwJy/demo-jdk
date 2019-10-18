@@ -1,14 +1,12 @@
 package com.demo.io.lambda;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-/**
- * Created by w景洋
- * on 2019/10/17
- */
 public class Demo1 {
+    /**
+     * lambda的示例
+     * @param args
+     */
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("My JFrame");
         JButton jButton = new JButton("My JButton");
