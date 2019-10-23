@@ -1,25 +1,18 @@
-package com.demo.io.ref.domain;
+package com.demo.io.stream.domain;
 
 /**
  * Created by w景洋
- * on 2019/10/18
+ * on 2019/10/23
  */
-public class Payer {
-
+public class Teacher {
     private String name;
     private int scope;
+    private int age;
 
-    public Payer(String name, int scope) {
+    public Teacher(String name, int scope, int age) {
         this.name = name;
         this.scope = scope;
-    }
-
-    public static int diff(Payer p1 , Payer p2) {
-        return p1.getScope() - p2.getScope();
-    }
-
-    public int diff2(Payer p1){
-        return p1.getScope() - this.scope;
+        this.age = age;
     }
 
     public String getName() {
@@ -36,5 +29,13 @@ public class Payer {
 
     public void setScope(int scope) {
         this.scope = scope;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
