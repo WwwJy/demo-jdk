@@ -1,10 +1,7 @@
 package com.demo.io.stream;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
@@ -83,6 +80,8 @@ public class SimpleDemoStream {
                 .findFirst()
                 // 第一个元素存在就打印出来
                 .ifPresent(System.out::println);
+
+        Collections.sort(list, Comparator.comparingInt(i -> i.length()));
     }
     // 注: 流是存在短路运算的,其理解和操作符 || 或者 && 意思相同。
     // findFirst()函数即是一个短路操作，当找到第一个符合规则的元素，则不再继续往下执行。
